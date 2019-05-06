@@ -12,6 +12,7 @@ words = {
     "at" => "@",
     "and" => "&"
   }
+end
   
 def word_substituter(tweet)
   tweet.split(" ")
