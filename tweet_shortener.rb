@@ -32,4 +32,5 @@ end
 
 def bulk_tweet_shortner(tweet_array)
   tweet_array.collect do |tweet|
-    puts bulk_tweet_shortner(tweet)
+    puts word_substituter(tweet)
+end
