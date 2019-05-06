@@ -1,4 +1,5 @@
 # Write your code here.
+def dictionary
 words = { 
     "hello" => "hi", 
     "to" => "2",
