@@ -12,7 +12,8 @@ words = {
     "and" => "&"
   }
   
-def word_substituter(word)
+def word_substituter(tweet)
+  
   
     
 end
