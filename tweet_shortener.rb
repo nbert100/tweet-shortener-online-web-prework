@@ -13,7 +13,7 @@ words = {
   }
   
 def word_substituter(tweet)
-  
+  tweet_one
   
     
 end
