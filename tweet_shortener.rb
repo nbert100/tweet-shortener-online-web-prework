@@ -15,9 +15,16 @@ words = {
 end
   
 def word_substituter(tweet)
-  tweet.split(" ")
-  tweet.each do {|word| word.replace ({words}) }
-  tweet.join(" ")
-  return tweet 
-  end  
+  dict = dictionary
+  words = tweet.split(" ")
+
+  words.collect do |word|
+    dictionary.collect do |key, value|
+      if word == key 
+        word.replace(value)
+      end 
+    end
+  end 
+  words.join(" ")
+end 
 end
