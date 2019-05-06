@@ -15,6 +15,7 @@ words = {
 def word_substituter(tweet)
   tweet.split(" ")
   tweet.each do |word| word.replace{ words }
-  tweet.join(",")
+  tweet.join(" ")
+  return tweet 
   end  
 end
