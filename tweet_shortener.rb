@@ -13,7 +13,9 @@ words = {
   }
   
 def word_substituter(tweet)
-  tweet_one.split(" ")
+  tweet.split(" ")
+  tweet
+  
   
     
 end
