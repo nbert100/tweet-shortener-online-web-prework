@@ -30,7 +30,7 @@ def word_substituter(tweet)
   words.join(" ")
 end 
 
-def bulk_tweet_shortner(tweets_array)
+def bulk_tweet_shortner
   tweets_array.collect do |tweet|
     return word_substituter(tweet)
 end
