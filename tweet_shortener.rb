@@ -1,4 +1,4 @@
 # Write your code here.
 def word_substituter(word)
-  words = 
+  words = { "hello" =>
 end
